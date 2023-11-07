@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyderabad - WanderBuddy</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="hyderabadstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html"><img src="wb.png" class="hmg" height="30px" width="150px"></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="content">
+        <h1 class="text">
+            Hyderabad
+        </h1>
+        <img class="hawa" src="Hyderabad_back4.jpg"></img>
+        <br>
+        <<br>
+
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <div class="des">
+        <h1>About</h1>
+
+
+        <p id="text2">Hyderabad, the city of Nizams, is a captivating tapestry of old-world charm and modern vivacity.
+            Nestled in the heart of India, this historic metropolis is a radiant gem, where ancient heritage seamlessly
+            blends with contemporary culture.
+            Stroll through the bustling streets, and you'll be greeted by the tantalizing aroma of biryani, Hyderabad's
+            culinary masterpiece. The city's iconic Charminar stands tall as a testament to its rich history, while the
+            futuristic HITEC City reflects its progressive spirit.As the sun sets over the Hussain Sagar Lake, the giant Buddha statue glistens with a tranquil serenity. Hyderabad's Golconda Fort whispers tales of its grandeur, and the city's pearls shine just as brightly today as they did in the court of the Nizams<span id="dots">...</span><span id="more"> .In the
+                heart of Hyderabad, you'll find an oasis of knowledge at institutions like Osmania University, and a
+                kaleidoscope of colors at the Laad Bazaar. The Golkonda stepwell is a testament to ancient engineering,
+                and Ramoji Film City brings dreams to life on the silver screen.
+                Hyderabad is a city where the past dances with the present, where tradition and innovation harmoniously
+                coexist. It's a place where the fragrance of history mingles with the excitement of the future, creating
+                a uniquely vibrant and unforgettable experience.<br></span></p>
+
+
+        <button onclick="myFunction()" id="myBtn">Read more</button>
+
+        <script>
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
+            }
+        </script>
+    </div>
+    <div class="places">
+        <h1>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDestinations and Hotels in <span class="jaipur"><a
+                    href="hyderbad.html">Hyderbad</span></h1>
+
+
+        <div class="destinations">
+            <p id="destni"><a href="">DESTINATIONS</a></p>
+        </div>
+        <div class="destinations1">
+            <p id="hotel"><a href="">HOTELS</a></p>
+        </div>
+
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <footer class="footer">
+        <div class="fl">
+            <div class="f1">
+                <h2>Our Social Media</h2>
+                <a href=""><i class="fa-brands fa-facebook fa-xl" style="color: #3568c0;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #e60a7f;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-xl" style="color: #005eff;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-reddit fa-xl" style="color: #fd3030;padding:10px;"></i></a>
+            </div>
+            <div class="f2">
+                <div class="subscription-form">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <form action="#" method="post">
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="f3">
+                <h2>Contact Us</h2>
+                <p><i class="fa-solid fa-phone fa-xs" style="color: #ffffff;"></i> 999-999-999</p>
+                <p><i class="fa-solid fa-envelope fa-xs" style="color: #ffffff;"></i> wanderbuddy@contact.com</p>
+            </div>
+        </div>
+        <hr class="bar2">
+        <p>&copy; 2023 WanderBuddy. All rights reserved.</p>
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,252 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+.hmg{
+    margin-top: -6px;
+    margin-left:20px;
+}
+.navbar {
+    padding: 0px;
+    height:78px;
+    margin-top:0px;
+}
+.navbar ul {
+    overflow: auto;
+    padding: -20px;
+}
+.navbar li {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 26px 20px;
+    float: left;
+    list-style: none;
+    padding: 6px 6px;
+}
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.navbar input{
+    background-color: rgba(94, 91, 91, 0.4);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    border: 0;
+    margin: 1800px;
+    border-radius: 15px;
+    margin: 13px;
+    padding: 3px;
+    right: -300px;
+}
+.header1{
+    width:100%;
+    height: 72vh;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('hotelbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 30px 3px rgba(0,0,0,0.5);
+}
+.txthd{
+    position: relative;
+    top: 15%;
+    font-weight: bolder;
+    font-size: 3cm;
+    color: white;
+}
+.bar1{
+    border:1px solid rgb(118, 118, 247);
+    width: 50%;
+    margin-bottom:70px;
+}
+.bar2{
+    width:90%;
+}
+.main{
+    height: 220px;
+    margin-top:40px;
+    display: flex;
+    justify-content: space-around;
+}
+.m1{
+    display:flex;
+}
+.hwimg{
+    width:300px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.6);
+}
+.texthw{
+    width:700px;
+    height:100px;
+    margin-top:10px;
+}
+.tt1{
+    margin-top:-25px;
+    font-size: 3.2ch;
+}
+.tt2{
+    color:grey;
+    font-weight: 600;
+    font-size: 15px;
+}
+.tt3{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.tt4{
+    margin-top:14px;
+    font-size: 15px;
+}
+.tt5{
+    margin-top:30px;
+    font-size: 20px;
+    color:orange;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.mngs{
+    margin-top:6%;
+    width:130px;
+}
+.butn{
+    margin-top:5%;
+    height: 40px;
+    width:120px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    border-radius:8px ;
+    border: 0;
+    margin-left:5px;
+}
+.butnt{
+    text-decoration: none; 
+    color: white;
+}
+.butn:hover{
+    background-color: rgb(236, 16, 16);
+    transform: scale(1.03);
+}
+.lnk{
+    text-decoration: none; 
+    color: rgb(68, 68, 233);
+    font-weight: bold;
+}
+.footer {
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('ftimg.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.8);
+}
+.fl{
+    display:flex;
+    justify-content: space-around;
+    padding:40px;
+}
+.f1{
+    width:300px;
+}
+.f2{
+    width:500px;
+}
+.f3{
+    width:300px;
+}
+.subscription-form {
+    margin-bottom: 20px;
+}
+.subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscription-form button:hover {
+    background-color: #45a049;
+}
+.mnimg{
+    padding: 10px;
+}
+.imgss{
+  height:180px;
+  width:300px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30px 3px rgba(0,0,0,0.5);
+}
+.mnimg:hover{
+  transform:scale(1.05);
+}
+#sl{
+  width: 100%;
+  height:100%;
+  position:absolute;
+}
+.btnsimg{
+  width:300px;
+  position: absolute;
+  margin-top:-180px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnsimg button{
+  color:rgb(209, 199, 199);
+  font-weight: bolder;
+  font-size:20px;
+  height:180px;
+  border:0;
+}
+.nxt{
+  background: linear-gradient(to right , transparent,rgba(0,0,0,0.8));
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.prv{
+  background: linear-gradient(to right , rgba(0,0,0,0.8),transparent);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.ttmn{
+    display:flex;
+    justify-content: space-between;
+    margin-top:-10px;
+}
+.ttrms{
+    width: 170px;
+}

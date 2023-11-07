@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Sometype+Mono&family=Ubuntu+Condensed&display=swap');
+
+body{
+margin:0px;
+font-family: 'PT Serif', serif;
+font-family: 'Sometype Mono', monospace;
+font-family: 'Ubuntu Condensed', sans-serif;
+background-image:linear-gradient(rgba(215, 215, 215, 0.6),rgba(214, 214, 214, 1)),url('Hyderabad_back5.jpg');
+ background-repeat: no-repeat;
+ width: 100vw;
+ background-size:cover;
+ overflow-x: hidden;
+ 
+/* background: no-repeat; */
+
+}
+
+.text{
+    background-color: transparent; 
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  margin-top: 0px;
+  margin-left:40px;
+/* bottom:530px;
+right:1190px; */
+  z-index: 2;
+  letter-spacing: 4px;
+  font-size: 110px;
+  
+}
+
+.hawa{
+    margin:0px;
+    padding: 0px;
+    box-shadow: 0 0 30px 2px rgba(0,0,0,0.6);
+    -webkit-filter: blur(10px);
+    filter: brightness(45%);
+    height: 85vh;
+    width: 100%;
+    border-radius: 2px;
+    z-index: -1;
+    position: absolute;
+    top:80px;
+}
+.des{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin:1px;
+    padding: 10px;
+    width: 41%;
+    display: inline-block;
+    line-height: 0.7cm;
+    height:1000px;
+    font-size: 15px;
+    line-height: 1cm;
+  
+   
+}
+.content{
+    /* border:2px solid red; */
+    margin:0px;
+    padding:0px;
+    height:80vh;
+}
+.places{
+    /* border:2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 1cm;
+    /* border:2px solid red; */
+    padding:10px;
+    left:45%;
+    position: relative;
+    display: inline-block;
+    height:800px;
+    width: 60%;
+    font-size: 20px;
+    /* border:2px solid red; */
+}
+.content{
+    /* border:2px solid red; */
+    
+}
+.destinations{
+    display: flex;
+    border-radius: 10px;
+    padding:0px;
+    display:inline-block;
+    margin-left:38px;
+    height:370px;
+    width:250px;
+    margin-top: 10px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.619),rgba(0, 0, 0, 0.619)),url('Hyderbad_back1.jpg');
+    background-size:600px;
+    background-position:center;
+
+    
+}
+.destinations:hover{
+    border:2px solid rgb(255, 255, 255);
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+.destinations1:hover{
+    border:2px solid rgb(255, 255, 255);
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.destinations1{
+    display: flex;
+    border-radius: 10px;
+    padding:0px;
+    display:inline-block;
+    margin-left:38px;
+    height:370px;
+    width:250px;
+    margin-top: 10px;
+  
+    background-image:linear-gradient(rgba(0,0,0,0.619),rgba(0,0,0,0.619)),url('hyderabad_hotel.png');
+    background-size: cover;
+  
+/* 
+    border:2px solid blue; */
+}
+
+
+
+#destn{
+    z-index: -1;
+    border-radius: 10px;
+   
+
+}
+
+#destni{
+    position: relative;
+    top:150px;
+    font-size: 40px;
+    left:15px;
+    
+}
+#hotel{
+    position: relative;
+    top:150px;
+    font-size: 40px;
+    left:60px;
+    color:white;
+}
+/* #hotel:hover{
+    cursor: pointer;
+    
+    
+} */
+#destni a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+#hotel a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+/* #destni:hover{
+    cursor: pointer;
+    
+} */
+.jaipur a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+.jaipur a:hover{
+    color:rgb(199, 166, 0);
+    cursor: pointer;
+    font-size: 45px;
+    /* text-decoration: underline; */
+}
+#myBtn{
+    /* right:697px; */
+    left:100px;
+    top: 1200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#myBtn:hover{
+    color:red;
+    font-size:14px;
+
+}
+
+
+.text5{
+    margin:2px;
+    /* border:2px solid red; */
+    display:inline-block;
+}
+#text5{
+    position: relative;
+    bottom:185px;
+    color:black;
+    text-decoration: underline;
+}
+#text6{
+    position: relative;
+    left:382px;
+    bottom:214px;
+    color:black;
+    text-decoration: underline;
+}
+#text5:hover{
+    color:red;
+
+}
+.jm{
+    display: inline-block;
+
+}
+
+
+
+.navbar {
+    background: transparent;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.navbar ul {
+    overflow: auto;
+    padding: -20px;
+}
+
+.navbar li {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 10px 20px;
+    float: left;
+    list-style: none;
+    padding: 6px 6px;
+
+}
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.navbar input{
+    background-color: rgba(94, 91, 91, 0.4);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    border: 0;
+    margin: 1800px;
+    border-radius: 15px;
+    margin: 13px;
+    padding: 3px;
+    right: -300px;
+}
+.hmg{
+    margin-top: -6px;
+    margin-left: -40px;
+}
+
+.footer {
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('ftimg.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.8);
+}
+.fl{
+    display:flex;
+    justify-content: space-around;
+    padding:40px;
+}
+.f1{
+    width:300px;
+}
+.f2{
+    width:500px;
+}
+.f3{
+    width:300px;
+}
+.subscription-form {
+    margin-bottom: 20px;
+}
+.subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscription-form button:hover {
+    background-color: #45a049;
+}
+.bar2{
+    width:90%;
+}

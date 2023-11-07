@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai Hotels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="hotelmumbaistyle.css">
+    <link rel="icon" type="image/x-icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html"><img src="wb.png" class="hmg" height="30px" width="150px"></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header1">
+        <div class="txthd">
+            <p>HOTELS</p>
+        </div>
+    </div>
+    <br>
+    <p><center><font size ="6" color="grey">In Mumbai</font></center></p>
+    <hr class="bar1">
+    <div class="main">
+        <div class="mnimg">
+            <div class="imgss">
+              <img src="img21-1.jpg" class="slide" alt="" id="sl">
+              <img src="img21-2.jpg" class="slide" alt="" id="sl">
+              <img src="img21-3.jpg" class="slide" alt="" id="sl">
+              <img src="img21-4.avif" class="slide" alt="" id="sl">
+            </div>
+            <div class="btnsimg">
+              <button onclick="goPrev()" class="prv">&#10094;</button>
+              <button onclick="goNext()" class="nxt">&#10095;</button>
+            </div>
+          </div>
+        <script>
+          const slides=document.querySelectorAll(".slide");
+          var counter=0;
+          slides.forEach(
+              (slides,index)=>{
+                  slides.style.left=`${index*100}%`
+          });
+          const goPrev=() =>{
+              if(counter!=0){
+              counter--
+              slideImage()
+            }
+          }
+          const goNext=() =>{
+            if(counter<=2){
+              counter++
+              slideImage()
+              }
+          }
+          const slideImage=()=>{
+              slides.forEach(
+                  (slide)=>{
+                      slide.style.transform=`translateX(-${counter*100}%)`
+                  }
+              )
+          }
+        </script>
+        <div class="texthw">
+            <div class="tt1"><p>The Lalit Mumbai</p></div>
+            <div class="ttmn">
+                <div class="ttrms">
+                    <div class="tt2">Options</div>
+                    <div class="tt3">Rooms Only- <br>With Breakfast- </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Lalit Premiere Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 8,680</li>
+                            <li>₹ 8,893</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Lalit Club Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 9,747</li>
+                            <li>₹ 9,961</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Lalit Executive Suite-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 19,352</li>
+                            <li>₹ 19,565</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tt6"><b>Dining - </b>Baluchi, OKO are two fine-dining Pan-Asian restaurant.</div>
+            <div class="tt4">
+                <b>Hotel Stars - </b><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i>
+            </div>
+        </div>
+        <div class="mngs">
+            <button class="butn"><a href="" class="butnt">+ Add to List</a></button>
+            <div class="tt5">Ratings : <font style="color:darkgray;">4.1/5</font></div>
+        </div>
+    </div>
+    <hr class="bar2">
+    <div class="main">
+        <div class="mnimg">
+            <div class="imgss">
+              <img src="img22-1.jpg" class="slide1" alt="" id="sl">
+              <img src="img22-2.jpg" class="slide1" alt="" id="sl">
+              <img src="img22-3.jpg" class="slide1" alt="" id="sl">
+              <img src="img22-4.jpg" class="slide1" alt="" id="sl">
+            </div>
+            <div class="btnsimg">
+              <button onclick="goPrev1()" class="prv">&#10094;</button>
+              <button onclick="goNext1()" class="nxt">&#10095;</button>
+            </div>
+          </div>
+          <script>
+          const slides1=document.querySelectorAll(".slide1");
+          var counter1=0;
+          slides1.forEach(
+              (slides1,index1)=>{
+                  slides1.style.left=`${index1*100}%`
+          });
+          const goPrev1=() =>{
+              if(counter1!=0){
+              counter1--
+              slideImage1()
+              }
+          }
+          const goNext1=() =>{
+              if(counter1<=2){
+              counter1++
+              slideImage1()
+             }
+          }
+          const slideImage1=()=>{
+              slides1.forEach(
+                  (slide1)=>{
+                    slide1.style.transform=`translateX(-${counter1*100}%)`
+                  }
+              )
+          }
+          </script>
+        <div class="texthw">
+            <div class="tt1"><p>Hilton Mumbai</p></div>
+            <div class="ttmn">
+                <div class="ttrms">
+                    <div class="tt2">Options</div>
+                    <div class="tt3">Rooms Only-<br>With Breakfast-</div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Deluxe Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 18,900</li>
+                            <li>₹ 19,000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Twin Pool View Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 19,000</li>
+                            <li>₹ 20,000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Executive Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 20,000</li>
+                            <li>₹ 20,500</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tt6"><b>Dining - </b>Crystal Lounge, Imperial China, Lounge Bar, The Brasserie offering various cuisines.</div>
+            <div class="tt4">
+                <b>Hotel Stars - </b><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i>            
+            </div>
+        </div>
+        <div class="mngs">
+            <button class="butn"><a href="" class="butnt">+ Add to List</a></button>
+            <div class="tt5">Ratings : <font style="color:darkgray;">4.2/5</font></div>
+        </div>
+    </div>
+    <hr class="bar2">
+    <div class="main">
+        <div class="mnimg">
+            <div class="imgss">
+              <img src="img23-1.jpg" class="slide2" alt="" id="sl">
+              <img src="img23-2.jpg" class="slide2" alt="" id="sl">
+              <img src="img23-3.webp" class="slide2" alt="" id="sl">
+              <img src="img23-4.webp" class="slide2" alt="" id="sl">
+            </div>
+            <div class="btnsimg">
+              <button onclick="goPrev2()" class="prv">&#10094;</button>
+              <button onclick="goNext2()" class="nxt">&#10095;</button>
+            </div>
+          </div>
+          <script>
+          const slides2=document.querySelectorAll(".slide2");
+          var counter2=0;
+          slides2.forEach(
+              (slides2,index2)=>{
+                  slides2.style.left=`${index2*100}%`
+          });
+          const goPrev2=() =>{
+              if(counter2!=0){
+              counter2--
+              slideImage2()
+              }
+          }
+          const goNext2=() =>{
+              if(counter2<=2){
+              counter2++
+              slideImage2()
+             }
+          }
+          const slideImage2=()=>{
+              slides2.forEach(
+                  (slide2)=>{
+                    slide2.style.transform=`translateX(-${counter2*100}%)`
+                  }
+              )
+          }
+          </script>
+        <div class="texthw">
+            <div class="tt1"><p>Lakeside Chalet Marriott Executive Apartments</p></div>
+            <div class="ttmn">
+                <div class="ttrms">
+                    <div class="tt2">Options</div>
+                    <div class="tt3">Rooms Only- <br>With Breakfats- <br>With full day meal- </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Standard Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 17,000</li>
+                            <li>₹ 17,800</li>
+                            <li>₹ 19,000</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Deluxe Rooms-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 20,500</li>
+                            <li>₹ 21,300</li>
+                            <li>₹ 22,500</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Super Deluxe Suite-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 24,000</li>
+                            <li>₹ 24,800</li>
+                            <li>₹ 25,300</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tt3">
+                <b>Hotel Stars - </b><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i>            
+            </div>
+        </div>
+        <div class="mngs">
+            <button class="butn"><a href="" class="butnt">+ Add to List</a></button>
+            <div class="tt5">Ratings : <font style="color:darkgray;">4.3/5</font></div>
+        </div>
+    </div>
+    <hr class="bar2">
+    <div class="main">
+        <div class="mnimg">
+            <div class="imgss">
+              <img src="img24-1.jpg" class="slide3" alt="" id="sl">
+              <img src="img24-2.webp" class="slide3" alt="" id="sl">
+              <img src="img24-3.webp" class="slide3" alt="" id="sl">
+              <img src="img24-4.jpg" class="slide3" alt="" id="sl">
+            </div>
+            <div class="btnsimg">
+              <button onclick="goPrev3()" class="prv">&#10094;</button>
+              <button onclick="goNext3()" class="nxt">&#10095;</button>
+            </div>
+          </div>
+          <script>
+          const slides3=document.querySelectorAll(".slide3");
+          var counter3=0;
+          slides3.forEach(
+              (slides3,index3)=>{
+                  slides3.style.left=`${index3*100}%`
+          });
+          const goPrev3=() =>{
+              if(counter3!=0){
+              counter3--
+              slideImage3()
+              }
+          }
+          const goNext3=() =>{
+              if(counter3<=2){
+              counter3++
+              slideImage3()
+             }
+          }
+          const slideImage3=()=>{
+              slides3.forEach(
+                  (slide3)=>{
+                    slide3.style.transform=`translateX(-${counter3*100}%)`
+                  }
+              )
+          }
+          </script>
+        <div class="texthw">
+            <div class="tt1"><p>Novotel Mumbai</p></div>
+            <div class="ttmn">
+                <div class="ttrms">
+                    <div class="tt2">Options</div>
+                    <div class="tt3">Room Only- <br>With Breakfast- </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Standard Room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 13,999</li>
+                            <li>₹ 15,599</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Superior room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 15,199</li>
+                            <li>₹ 16,799</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Executive room-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 17,499</li>
+                            <li>₹ 19,099</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+            <div class="tt3">
+                <b>Hotel Stars - </b><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i>  
+            </div>
+        </div>
+        <div class="mngs">
+            <button class="butn"><a href="" class="butnt">+ Add to List</a></button>
+            <div class="tt5">Ratings : <font style="color:darkgray;">4.4/5</font></div>
+        </div>
+    </div>
+    <hr class="bar2">
+    <div class="main">
+        <div class="mnimg">
+            <div class="imgss">
+              <img src="img25-1.avif" class="slide4" alt="" id="sl">
+              <img src="img25-2.webp" class="slide4" alt="" id="sl">
+              <img src="img25-3.jpg" class="slide4" alt="" id="sl">
+              <img src="img25-4.webp" class="slide4" alt="" id="sl">
+            </div>
+            <div class="btnsimg">
+              <button onclick="goPrev4()" class="prv">&#10094;</button>
+              <button onclick="goNext4()" class="nxt">&#10095;</button>
+            </div>
+          </div>
+          <script>
+          const slides4=document.querySelectorAll(".slide4");
+          var counter4=0;
+          slides4.forEach(
+              (slides4,index4)=>{
+                  slides4.style.left=`${index4*100}%`
+          });
+          const goPrev4=() =>{
+              if(counter4!=0){
+              counter4--
+              slideImage4()
+              }
+          }
+          const goNext4=() =>{
+              if(counter4<=2){
+              counter4++
+              slideImage4()
+             }
+          }
+          const slideImage4=()=>{
+              slides4.forEach(
+                  (slide4)=>{
+                    slide4.style.transform=`translateX(-${counter4*100}%)`
+                  }
+              )
+          }
+          </script>
+        <div class="texthw">
+            <div class="tt1"><p>Courtyard by Marriott</p></div>
+            <div class="ttmn">
+                <div class="ttrms">
+                    <div class="tt2">Options</div>
+                    <div class="tt3">Rooms Only- <br>With Breakfast- </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Courtyard Suite-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 22,000</li>
+                            <li>₹ 22,750</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ttrms">
+                    <div class="tt2">Supreme Deluxe Suite-</div>
+                    <div class="tt3">
+                        <ul>
+                            <li>₹ 28,500</li>
+                            <li>₹ 30,750</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tt3">
+                <b>Hotel Stars - </b><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i><i class="fa-solid fa-star fa-lg" style="color: #fbff00;"></i>            
+            </div>
+        </div>
+        <div class="mngs">
+            <button class="butn"><a href="" class="butnt">+ Add to List</a></button>
+            <div class="tt5">Ratings : <font style="color:darkgray;">4.3/5</font></div>
+        </div>
+    </div>
+    <br>
+    <footer class="footer">
+        <div class="fl">
+            <div class="f1">
+                <h2>Our Social Media</h2>
+                    <a href=""><i class="fa-brands fa-facebook fa-xl" style="color: #3568c0;padding:10px;"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #e60a7f;padding:10px;"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter fa-xl" style="color: #005eff;padding:10px;"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;padding:10px;"></i></a>
+                    <a href=""><i class="fa-brands fa-reddit fa-xl" style="color: #fd3030;padding:10px;"></i></a>
+            </div>
+            <div class="f2">
+                <div class="subscription-form">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <form action="#" method="post">
+                       <input type="email" name="email" placeholder="Enter your email" required>
+                       <button type="submit">Subscribe</button>
+                   </form>
+                </div>
+            </div>
+            <div class="f3">
+                <h2>Contact Us</h2>
+                <p><i class="fa-solid fa-phone fa-xs" style="color: #ffffff;"></i> 999-999-999</p>
+                <p><i class="fa-solid fa-envelope fa-xs" style="color: #ffffff;"></i> wanderbuddy@contact.com</p>
+            </div>
+        </div>
+        <hr class="bar2">
+        <p>&copy; 2023 WanderBuddy. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
