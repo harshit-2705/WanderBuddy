@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+body{
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    justify-content: center;
+}
+
+.navbar {
+    background: transparent;
+    border-radius: 30px;
+    padding: 0px;
+}
+
+.navbar ul {
+    overflow: hidden;
+    padding: -20px;
+}
+
+.navbar li {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 10px 20px;
+    float: left;
+    list-style: none;
+    padding: 6px 6px;
+
+}
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.login{
+    background-color: rgba(94, 91, 91, 0.4);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 30px;
+    width: 70px;
+    position: relative;
+    border: 0;
+    margin: 1800px;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 3px;
+    right: -300px;
+    font-weight: bold;
+}
+.img{
+    margin-top: -6px;
+    margin-left: -20px;
+}
+.footer {
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('ftimg.jpg');
+    background-repeat:no-repeat ;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.8);
+}
+.fl{
+    display:flex;
+    justify-content: space-around;
+    padding:40px;
+}
+.f1{
+    width:300px;
+}
+.f2{
+    width:500px;
+}
+.f3{
+    width:300px;
+}
+.subscription-form {
+    margin-bottom: 20px;
+}
+.subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subscription-form button:hover {
+    background-color: #45a049;
+}
+.bar2{
+    width:90%;
+}
+
+/* Main */
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 15px;
+    padding: 0px;
+}
+.insert{
+    background-color: #fff;
+    height: 700px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #000000;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai-WanderBuddy</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="mumbaistyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body >
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html"><img src="wb.png" class="hmg" height="30px" width="150px"></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="content">
+        <h1 class="text">
+           Mumbai
+        </h1>
+        <img class="hawa" src="mumbai1.jpg"></img>
+        <br>
+        <br>
+
+    </div>
+    <hr>
+
+    <div class="des">
+        <h1>About</h1>
+        
+        
+        <p id="text2">Mumbai, often referred to as the "City of Dreams," is a bustling metropolis on the western coast of India. As the capital of the state of Maharashtra, Mumbai is known for its rich cultural heritage, vibrant diversity, and economic significance. This dynamic city is a melting pot of cultures, languages, and traditions, where people from all walks of life come to pursue their aspirations. With its iconic skyline, historic landmarks like the Gateway of India, and a thriving film industry centered in Bollywood. <span id="dots">...</span><span id="more"> .Mumbai offers a blend of modernity and tradition that makes it a captivating destination for tourists and a hub of opportunities for entrepreneurs and artists alike. Its bustling streets, coastal beauty, and thriving markets provide a unique and unforgettable experience to all who visit. Mumbai is the financial, commercial, and the entertainment capital of India. It is also one of the world's top ten centres of commerce in terms of global financial flow, generating 6.16% of India's GDP, and accounting for 25% of industrial output, 70% of maritime trade in India (Mumbai Port Trust, Dharamtar Port and JNPT), and 70% of capital transactions to India's economy.<br></span></p>
+
+
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+
+                <script>
+                    function myFunction() {
+                   var dots = document.getElementById("dots");
+                   var moreText = document.getElementById("more");
+                   var btnText = document.getElementById("myBtn");
+                 
+                   if (dots.style.display === "none") {
+                     dots.style.display = "inline";
+                     btnText.innerHTML = "Read more";
+                     moreText.style.display = "none";
+                   } else {
+                     dots.style.display = "none";
+                     btnText.innerHTML = "Read less";
+                     moreText.style.display = "inline";
+                   }
+                 }
+                     </script>
+    </div>
+    <div class="places">
+         <h1 >&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDestinations and Hotels in <span class="jaipur"><a href="Mumbai.html">Mumbai</span></h1>
+            
+       
+        <div class="destinations"><p id="destni"><a href="mumbaidesti.html">DESTINATIONS</a></p></div>
+            <div class="destinations1"><p id="hotel"><a href="hotelmumbai.html">HOTELS</a></p></div>
+
+    </div>
+</div>
+<br>
+<br>
+
+<footer class="footer">
+    <div class="fl">
+        <div class="f1">
+            <h2>Our Social Media</h2>
+                <a href=""><i class="fa-brands fa-facebook fa-xl" style="color: #3568c0;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #e60a7f;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-xl" style="color: #005eff;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-reddit fa-xl" style="color: #fd3030;padding:10px;"></i></a>
+        </div>
+        <div class="f2">
+            <div class="subscription-form">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form action="#" method="post">
+                   <input type="email" name="email" placeholder="Enter your email" required>
+                   <button type="submit">Subscribe</button>
+               </form>
+            </div>
+        </div>
+        <div class="f3">
+            <h2>Contact Us</h2>
+            <p><i class="fa-solid fa-phone fa-xs" style="color: #ffffff;"></i> 999-999-999</p>
+            <p><i class="fa-solid fa-envelope fa-xs" style="color: #ffffff;"></i> wanderbuddy@contact.com</p>
+        </div>
+    </div>
+    <hr class="bar2">
+    <p>&copy; 2023 WanderBuddy. All rights reserved.</p>
+</footer>
+
+
+    
+</body>
+
+</html>

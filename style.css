@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+
+.heading {
+    font-size: 100;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    position: relative;
+    top: 40px;
+    left: 360px;
+    color: rgb(40, 39, 39);
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.city {
+    padding-left: 20px;
+    display: flex;
+    height: 550px;
+}
+
+.city2 {
+    display: flex;
+    padding-left: 20px;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 15px;
+    width: 210px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.names {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.jaipur {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('Hawa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jaipur:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.delhi:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.mumbai:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.hyderabad:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.agra:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.agra {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('Taj.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mumbai {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('Gateway.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.delhi {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('Qutub.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hyderabad {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('Charminar.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pune {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('aga.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pune:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.banglore {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('bpalace.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banglore:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.kanpur {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('knp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.kanpur:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.jammu {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('gul.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jammu:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+.goa {
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+    width: 210px;
+    background-image: url('beach.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.goa:hover {
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+}
+
+body {
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+.login:hover {
+    background-color: rgb(3, 135, 150);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    background-color: rgba(31, 130, 160, 0.664);
+    cursor: pointer;
+}
+
+.navbar {
+    background: transparent;
+    border-radius: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    overflow: hidden;
+    padding: -20px;
+}
+
+.navbar li {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 10px 20px;
+    float: left;
+    list-style: none;
+    padding: 6px 6px;
+
+}
+
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.lefty{
+    margin-right: 24px;
+}
+.login {
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Ubuntu Condensed', sans-serif;
+    height: 30px;
+    width: 85px;
+    position: relative;
+    border-radius: 14px;
+    margin: 8px;
+    padding: 3px;
+    margin-top: 26px;
+    margin-right: 10px;
+    border: 0px solid ;
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: small;
+}
+
+.img {
+    margin-top: -6px;
+    margin-left: -20px;
+}
+
+.footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('ftimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    margin: 0px;
+    width: 100%;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.8);
+}
+
+.fl {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.f1 {
+    width: 300px;
+}
+
+.f2 {
+    width: 500px;
+}
+
+.f3 {
+    width: 300px;
+}
+
+.subscription-form {
+    margin-bottom: 20px;
+}
+
+.subscription-form input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subscription-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-form button:hover {
+    background-color: #45a049;
+}
+
+.bar2 {
+    width: 90%;
+}
+
+.srch {
+    background-color: rgba(141, 86, 86, 0.4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 30px;
+    width: 150px;
+    position: relative;
+    border: 0;
+    border-radius: 15px;
+    margin: 8px 15px;
+    padding: 3px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 0px solid rgb(0, 0, 0);
+}
+
+.srch:hover {
+    background-color: rgb(3, 135, 150);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    background-color: rgba(31, 130, 160, 0.664);
+}
+
+::placeholder{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0.6;
+}
+/*<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination List</title>
+</head>
+
+<body>
+    <button id="addtolist">Add to List</button>
+
+    <script>
+        document.getElementById('addtolist').addEventListener('click', function () {
+            var destination = 'Your Destination'; // Replace this with the actual destination name
+            var destinationList = []; // You can store the destinations in this array
+
+            // Check if the destination is already in the list
+            if (destinationList.includes(destination)) {
+                alert('Destination already added to the list');
+            } else {
+                destinationList.push(destination);
+                alert('Destination added to the list');
+            }
+        });
+    </script>
+</body>
+
+</html>
+*/

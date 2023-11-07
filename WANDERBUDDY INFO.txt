@@ -1,0 +1,27 @@
+Hotels-10
+top visit palces-10
+Kanpur
+Jaipur
+	Hawa Mahal
+	Jantar Mantar
+	Akshardham Temple
+	Central Park
+	Jaipur Wax Museum
+	Johari Bazaar
+	Amber Fort
+	Jal Mahal
+	Albert Hall Museum
+	City Palace
+		Ginger Jaipur
+		Sarovar Portio Jaipur
+		Clarks Amer
+		Fairmount Jaipur
+		The Park Prime
+Banglore
+New Delhi
+Mumbai
+Hyderabad
+Pune
+Dehradun
+Jammu
+Agra
