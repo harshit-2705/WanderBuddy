@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi - WanderBuddy</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="delhistyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body >
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html"><img src="wb.png" class="hmg" height="30px" width="150px"></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <div class="content">
+        <h1 class="text">
+           Delhi
+        </h1>
+        <img class="hawa" src="delhi_img.jpg"></img>
+        <br>
+        <<br>
+    
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <div class="des">
+        <h1>About</h1>
+        
+        
+        <p id="text2">Nestled along the serene banks of the Yamuna River, Agra is a city that breathes life into history and romance. As the first rays of the sun gently caress the iconic ivory-white marvel of the Taj Mahal, a symphony of love and architectural perfection unfolds. But Agra is more than just its famous jewel; it's a treasure trove of stories, colors, and flavors waiting to be explored.Wander through the enchanting streets, where time seems to stand still, and the Mughal legacy whispers through every crumbling archway. Agra Fort, a formidable red sandstone fortress, stands tall as a guardian of a bygone era, and Fatehpur Sikri, the ghost city, holds secrets of grandeur and abandonment<span id="dots">...</span><span id="more"> .Agra is best known for the Taj Mahal (17th century), designated a UNESCO World Heritage site in 1983. A complex mausoleum, the Taj Mahal is often considered to be the world’s best example of Mughal architecture. The Mughal emperor Shah Jahān built it for his favourite wife, Mumtāz Maḥal, in the mid-17th century. Agra Fort (16th century), called the Red Fort for its massive red sandstone walls, was built by the emperor Akbar; it contains the Pearl Mosque (Moti Masjid; 17th century), constructed of white marble, and a palace, the Jahangiri Mahal. The fort was also designated a World Heritage site in 1983.<br></span></p>
+
+
+                <button onclick="myFunction()" id="myBtn">Read more</button>
+
+                <script>
+                    function myFunction() {
+                   var dots = document.getElementById("dots");
+                   var moreText = document.getElementById("more");
+                   var btnText = document.getElementById("myBtn");
+                 
+                   if (dots.style.display === "none") {
+                     dots.style.display = "inline";
+                     btnText.innerHTML = "Read more";
+                     moreText.style.display = "none";
+                   } else {
+                     dots.style.display = "none";
+                     btnText.innerHTML = "Read less";
+                     moreText.style.display = "inline";
+                   }
+                 }
+                     </script>
+    </div>
+    <div class="places">
+         <h1 >&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDestinations and Hotels in <span class="jaipur"><a href="Agra.html">Delhi</span></h1>
+            
+       
+        <div class="destinations"><p id="destni"><a href="jaipurdesti.html">DESTINATIONS</a></p></div>
+            <div class="destinations1"><p id="hotel"><a href="jaipurhotel.html">HOTELS</a></p></div>
+
+    </div>
+</div>
+<br>
+<br>
+
+<footer class="footer">
+    <div class="fl">
+        <div class="f1">
+            <h2>Our Social Media</h2>
+                <a href=""><i class="fa-brands fa-facebook fa-xl" style="color: #3568c0;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-xl" style="color: #e60a7f;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-xl" style="color: #005eff;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;padding:10px;"></i></a>
+                <a href=""><i class="fa-brands fa-reddit fa-xl" style="color: #fd3030;padding:10px;"></i></a>
+        </div>
+        <div class="f2">
+            <div class="subscription-form">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form action="#" method="post">
+                   <input type="email" name="email" placeholder="Enter your email" required>
+                   <button type="submit">Subscribe</button>
+               </form>
+            </div>
+        </div>
+        <div class="f3">
+            <h2>Contact Us</h2>
+            <p><i class="fa-solid fa-phone fa-xs" style="color: #ffffff;"></i> 999-999-999</p>
+            <p><i class="fa-solid fa-envelope fa-xs" style="color: #ffffff;"></i> wanderbuddy@contact.com</p>
+        </div>
+    </div>
+    <hr class="bar2">
+    <p>&copy; 2023 WanderBuddy. All rights reserved.</p>
+</footer>
+
+
+    
+</body>
+
+</html>
